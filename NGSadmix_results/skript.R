@@ -1,15 +1,21 @@
-# 
+""" 
+This code performs visualization of the results of the admixture analysis for the wolf and dog genomic data. 
+The script reads the data from the ADMIXTURE analysis (.qopt file), organizes the samples into groups according to their origin (e.g. DOG, WOLF_SK, etc.), 
+and produces a bar chart showing the admixture proportions for each sample.
+The code also adds spaces between groups for better visual separation and labels each group with a box and label.
+"""
+
 # q <- read.table("../result_filtred4/merged_wolves_all_gl_ngs_rep2_k3.qopt")
 # q <- read.table("../result_filtred4/merged_wolves_all_gl_ngs_rep2_k3.qopt")
 # q <- read.table("../result_filtred4/merged_wolves_all_gl_ngs_rep6_k4.qopt")
 # q <- read.table("../result_filtred4/merged_wolves_all_gl_ngs_rep2_k3.qopt")
 # q <- read.table("../result_filtred4/merged_wolves_all_gl_ngs_rep1_k5.qopt")
 # q <- read.table("../result_filtred4/merged_wolves_all_gl_ngs_rep2_k6.qopt")
-# 
+
 q <- read.table("../result_filtred4/merged_wolves_all_gl_ngs_rep8_k8.qopt")
 pop2 <- read.table("../new_id_filtred.txt", header = FALSE)
 
-# Identifikace skupin podle prefixu (např. DOG, WOLF_SK, atd.)
+# group identification by prefix (e.g. DOG, WOLF_SK, etc.)
 create_labels <- function(names) {
   sapply(names, function(name) {
     if (grepl("DOG", name)) {
@@ -38,17 +44,17 @@ create_labels <- function(names) {
   })
 }
 
-# Použití funkce na vytvoření labelů
+# using the function to create labels
 labels <- create_labels(pop2$V1)
 
-# Uspořádání dat na základě skupin
+# data arrangement based on groups
 unique_labels <- unique(labels)
 ord <- order(match(labels, unique_labels))
 q_ordered <- q[ord, ]
 labels_ordered <- labels[ord]
 pop2_ordered <- pop2$V1[ord]
 
-# Přidání prázdných sloupců mezi skupiny
+# adding empty columns between groups
 q_with_spaces <- c()
 labels_with_spaces <- c()
 last_label <- labels_ordered[1]
@@ -71,11 +77,11 @@ for (i in seq_len(length(labels_ordered))) {
 
 frame_positions$end <- c(frame_positions$end, nrow(q_with_spaces))  # pozice pro konec poslední skupiny
 
-# Generování PDF
+# generating PDF
 pdf("plot_K8_combined__.pdf", width=18, height=8)
 par(mar=c(10, 5, 2, 1))  # nastavení okrajů pro lepší čitelnost popisků
 
-# Vytvoření barplotu s mezerami mezi skupinami
+# creating a barplot with gaps between groups
 bp <- barplot(t(q_with_spaces), 
               col = 1:10, 
               names.arg = labels_with_spaces, 
@@ -85,7 +91,7 @@ bp <- barplot(t(q_with_spaces),
               ylab = "Admixture proportions for K=8", 
               cex.names = 0.6)
 
-# Přidání popisků a rámečků kolem skupin
+# adding labels and frames around groups
 for (i in seq_along(frame_positions$start)) {
   group_start <- frame_positions$start[i]
   group_end <- frame_positions$end[i]
