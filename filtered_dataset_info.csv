@@ -1,0 +1,111 @@
+ID;WOLF/DOG/F1/F2;SPECIES;COUNTRY;LATITUDE;LONGITUDE;BAM NAME
+0;DOG_1;Canis lupus familiaris;Italy;X;X;genomes/MW1085_CIR1.CanFam31.realigned.bam
+1;DOG_2;Canis lupus familiaris;Italy;X;X;genomes/MW1086_CIR2.CanFam31.realigned.bam
+2;DOG_3;Canis lupus familiaris;Italy;X;X;genomes/MW1087_CIR3.CanFam31.realigned.bam
+3;DOG_4;Canis lupus familiaris;Italy;X;X;genomes/MW1090_CIR6.CanFam31.realigned.bam
+4;DOG_5;Canis lupus familiaris;Italy;X;X;genomes/MW1093_CIR9.CanFam31.realigned.bam
+5;DOG_6;Canis lupus familiaris;Italy;X;X;genomes/MW1094_CIR10.CanFam31.realigned.bam
+6;DOG_7;Canis lupus familiaris;Italy;X;X;genomes/MW1095_CIR11.CanFam31.realigned.bam
+7;DOG_8;Canis lupus familiaris;Italy;X;X;genomes/MW1098_CIR14.CanFam31.realigned.bam
+8;HYBRID_F1_1;hybrid wolf-dog F1;Poland;49,2735;22,2862;genomes/MW254_R?EXT.CanFam31.realigned.bam
+9;HYBRID_F1_2;hybrid wolf-dog F1;Germany;51,010989;10,845346;new_genomes/MW099.CanFam31.realigned.bam
+10;HYBRID_F1_3;hybrid wolf-dog F1;Germany;51,010989;10,845346;new_genomes/MW101.CanFam31.realigned.bam
+11;HYBRID_F1_4;hybrid wolf-dog F1;Germany;51,010989;10,845346;new_genomes/MW103.CanFam31.realigned.bam
+12;HYBRID_F1_5;hybrid wolf-dog F1;Poland;52,97441;17,84463;new_genomes/MW264.CanFam31.realigned.bam
+13;HYBRID_F1_6;hybrid wolf-dog F1;Poland;51,46676;17,73676;new_genomes/MW265.CanFam31.realigned.bam
+14;HYBRID_F1_7;hybrid wolf-dog F1;Poland;51,16276;19,45486;new_genomes/MW267.CanFam31.realigned.bam
+15;HYBRID_F1_8;hybrid wolf-dog F1;Poland;49,57039;22,23559;new_genomes/MW269.CanFam31.realigned.bam
+16;HYBRID_F2_1;hybrid wolf-dog F2 backross with dog;Poland;51,1624;19,46609;new_genomes/MW268.CanFam31.realigned.bam
+17;HYBRID_F2_2;hybrid wolf-dog F2 backcross with wolf;Poland;51,44733;17,76009;new_genomes/MW266.CanFam31.realigned.bam
+18;WOLF_CZ_1;Canis lupus;Czech Republic;50,797808;14,417685;genomes/MW045.CanFam31.realigned.bam
+19;WOLF_CZ_2;Canis lupus;Czech Republic;50,653;15,6133;genomes/MW333.CanFam31.realigned.bam
+20;WOLF_CZ_3;Canis lupus;Czech Republic;50,3376;14,8746;genomes/MW334_R-EXT.CanFam31.realigned.bam
+21;WOLF_DE_1;Canis lupus;Germany;50,118346;7,308953;new_genomes/MW053.CanFam31.realigned.bam
+22;WOLF_DE_2;Canis lupus;Germany;50,652051;9,162438;new_genomes/MW055.CanFam31.realigned.bam
+23;WOLF_DE_3;Canis lupus;Germany;51,104541;13,201738;new_genomes/MW056.CanFam31.realigned.bam
+24;WOLF_DE_4;Canis lupus;Germany;48,661604;9,350134;new_genomes/MW057.CanFam31.realigned.bam
+25;WOLF_DE_5;Canis lupus;Germany;52,131392;13,216249;genomes/MW058_R?EXT.CanFam31.realigned.bam
+26;WOLF_DE_6;Canis lupus;Germany;51,104541;13,201738;new_genomes/MW059.CanFam31.realigned.bam
+27;WOLF_DE_7;Canis lupus;Germany;52,131392;13,216249;new_genomes/MW070.CanFam31.realigned.bam
+28;WOLF_DE_8;Canis lupus;Germany;48,661604;9,350134;new_genomes/MW071.CanFam31.realigned.bam
+29;WOLF_DE_9;Canis lupus;Germany;52,636704;9,845077;new_genomes/MW072.CanFam31.realigned.bam
+30;WOLF_DE_10;Canis lupus;Germany;52,636704;9,845077;new_genomes/MW073.CanFam31.realigned.bam
+32;WOLF_DE_12;Canis lupus;Germany;52,131392;13,216249;new_genomes/MW077.CanFam31.realigned.bam
+33;WOLF_DE_13;Canis lupus;Germany;51,010989;10,845346;new_genomes/MW078.CanFam31.realigned.bam
+35;WOLF_DE_15;Canis lupus;Germany;50,652051;9,162438;new_genomes/MW083.CanFam31.realigned.bam
+36;WOLF_DE_16;Canis lupus;Germany;52,131392;13,216249;new_genomes/MW085.CanFam31.realigned.bam
+37;WOLF_DE_17;Canis lupus;Germany;48,790447;11,49789;new_genomes/MW086.CanFam31.realigned.bam
+38;WOLF_DE_18;Canis lupus;Germany;52,131392;13,216249;new_genomes/MW088.CanFam31.realigned.bam
+39;WOLF_DE_19;Canis lupus;Germany;53,612651;12,429595;genomes/MW089_R?EXT.CanFam31.realigned.bam
+40;WOLF_DE_20;Canis lupus;Germany;51,104541;13,201738;new_genomes/MW090.CanFam31.realigned.bam
+41;WOLF_DE_21;Canis lupus;Germany;52,131392;13,216249;new_genomes/MW091.CanFam31.realigned.bam
+42;WOLF_DE_22;Canis lupus;Germany;52,636704;9,845077;new_genomes/MW094.CanFam31.realigned.bam
+45;WOLF_DE_25;Canis lupus;Germany;52,636704;9,845077;new_genomes/MW097.CanFam31.realigned.bam
+46;WOLF_DE_26;Canis lupus;Germany;52,131392;13,216249;new_genomes/MW098.CanFam31.realigned.bam
+47;WOLF_DE_27;Canis lupus;Germany;52,636704;9,845077;new_genomes/MW102.CanFam31.realigned.bam
+55;WOLF_PL_8;Canis lupus;Poland;49,71314;18,96991;new_genomes/MW261.CanFam31.realigned.bam
+57;WOLF_PL_10;Canis lupus;Poland;51,55846;15,25794;new_genomes/MW263.CanFam31.realigned.bam
+61;WOLF_PL_14;Canis lupus;Poland;52,5431;14,76891;new_genomes/MW273.CanFam31.realigned.bam
+63;WOLF_PL_16;Canis lupus;Poland;53,0496;16,1429;new_genomes/MW276.CanFam31.realigned.bam
+69;WOLF_PL_22;Canis lupus;Poland;53,3845;16,74329;new_genomes/MW282.CanFam31.realigned.bam
+74;WOLF_PL_27;Canis lupus;Poland;52,54669;15,07533;genomes/MW287_R?EXT.CanFam31.realigned.bam
+75;WOLF_PL_28;Canis lupus;Poland;52,7872;15,73189;new_genomes/MW288.CanFam31.realigned.bam
+79;WOLF_PL_32;Canis lupus;Poland;54,71869;17,27036;new_genomes/MW292.CanFam31.realigned.bam
+81;WOLF_PL_34;Canis lupus;Poland;51,1714;23,6403;new_genomes/MW294.CanFam31.realigned.bam
+82;WOLF_PL_35;Canis lupus;Poland;50,5737;21,93079;new_genomes/MW295.CanFam31.realigned.bam
+84;WOLF_PL_37;Canis lupus;Poland;50,5353;22,8904;genomes/MW297_R?EXT.CanFam31.realigned.bam
+85;WOLF_PL_38;Canis lupus;Poland;52,79;23,85;new_genomes/MW1163.CanFam31.realigned.bam
+90;WOLF_SK_5;Canis lupus;Slovakia;49,1709;22,0248;new_genomes/MW050.CanFam31.realigned.bam
+91;WOLF_SK_6;Canis lupus;Slovakia;48,8756;22,1472;new_genomes/MW051.CanFam31.realigned.bam
+92;WOLF_SK_7;Canis lupus;Slovakia;49,3116;21,8325;new_genomes/MW332.CanFam31.realigned.bam
+94;WOLF_SK_9;Canis lupus;Slovakia;49,3181;18,8802;new_genomes/MW336.CanFam31.realigned.bam
+95;WOLF_SK_10;Canis lupus;Slovakia;49,32047;21,84349;new_genomes/MW337.CanFam31.realigned.bam
+96;WOLF_SK_11;Canis lupus;Slovakia;49,21531;19,44052;new_genomes/MW339.CanFam31.realigned.bam
+97;WOLF_SK_12;Canis lupus;Slovakia;48,91577;19,26219;new_genomes/MW342.CanFam31.realigned.bam
+98;WOLF_SK_13;Canis lupus;Slovakia;49,0108;19,4953;new_genomes/MW697A.CanFam31.realigned.bam
+99;WOLF_SK_14;Canis lupus;Slovakia;48,7853;20,1361;new_genomes/MW698A.CanFam31.realigned.bam
+102;WOLF_SK_17;Canis lupus;Slovakia;48,6531;19,431;new_genomes/MW710A.CanFam31.realigned.bam
+103;WOLF_SK_18;Canis lupus;Slovakia;49,1176;19,7938;new_genomes/MW712A.CanFam31.realigned.bam
+106;WOLF_SK_21;Canis lupus;Slovakia;48,6233;19,0548;new_genomes/MW880D.CanFam31.realigned.bam
+107;WOLF_SK_22;Canis lupus;Slovakia;49,1742;19,2575;new_genomes/MW933D.CanFam31.realigned.bam
+109;WOLF_SK_24;Canis lupus;Slovakia;49,0405;19,6171;new_genomes/MW935D.CanFam31.realigned.bam
+112;WOLF_SK_27;Canis lupus;Slovakia;48,5898;19,9911;new_genomes/MW938D.CanFam31.realigned.bam
+113;WOLF_SK_28;Canis lupus;Slovakia;48,8416;19,4981;new_genomes/MW939D.CanFam31.realigned.bam
+115;WOLF_SK_30;Canis lupus;Slovakia;48,8833;20,5833;new_genomes/MW942D.CanFam31.realigned.bam
+116;WOLF_SK_31;Canis lupus;Slovakia;48,8209;20,8001;new_genomes/MW943D.CanFam31.realigned.bam
+117;WOLF_SK_32;Canis lupus;Slovakia;48,7983;20,7332;new_genomes/MW944D.CanFam31.realigned.bam
+118;WOLF_SK_33;Canis lupus;Slovakia;49,0244;20,6741;new_genomes/MW945D.CanFam31.realigned.bam
+120;WOLF_SK_35;Canis lupus;Slovakia;49,0298;20,4647;new_genomes/MW948D.CanFam31.realigned.bam
+121;WOLF_SK_36;Canis lupus;Slovakia;48,8297;20,7583;new_genomes/MW949D.CanFam31.realigned.bam
+123;WOLF_SK_38;Canis lupus;Slovakia;49,1526;19,0098;new_genomes/MW952D.CanFam31.realigned.bam
+124;WOLF_SK_39;Canis lupus;Slovakia;49,2623;21,6322;new_genomes/MW954D.CanFam31.realigned.bam
+127;WOLF_SK_42;Canis lupus;Slovakia;49,3348;19,6748;new_genomes/MW957D.CanFam31.realigned.bam
+128;WOLF_SK_43;Canis lupus;Slovakia;49,0642;20,9141;new_genomes/MW958D.CanFam31.realigned.bam
+129;WOLF_SK_44;Canis lupus;Slovakia;49,3484;21,2218;new_genomes/MW959D.CanFam31.realigned.bam
+130;WOLF_SK_45;Canis lupus;Slovakia;49,0725;22,0934;new_genomes/MW960D.CanFam31.realigned.bam
+131;WOLF_SK_46;Canis lupus;Slovakia;48,9007;22,3936;new_genomes/MW961D.CanFam31.realigned.bam
+132;WOLF_SK_47;Canis lupus;Slovakia;48,6409;19,4602;new_genomes/MW962D.CanFam31.realigned.bam
+133;WOLF_SK_48;Canis lupus;Slovakia;48,7163;19,6992;new_genomes/MW963D.CanFam31.realigned.bam
+134;WOLF_SK_49;Canis lupus;Slovakia;49,2079;19,535;new_genomes/MW964D.CanFam31.realigned.bam
+135;WOLF_SK_50;Canis lupus;Slovakia;49,1066;19,4374;new_genomes/MW965D.CanFam31.realigned.bam
+136;WOLF_SK_51;Canis lupus;Slovakia;49,09834;20,20651;new_genomes/MW966D.CanFam31.realigned.bam
+137;WOLF_SK_52;Canis lupus;Slovakia;49,0097;20,0902;new_genomes/MW967D.CanFam31.realigned.bam
+138;WOLF_SK_53;Canis lupus;Slovakia;49,0151;20,1641;new_genomes/MW969D.CanFam31.realigned.bam
+139;WOLF_SK_54;Canis lupus;Slovakia;49,0097;20,0902;new_genomes/MW970D.CanFam31.realigned.bam
+140;WOLF_UA_1;Canis lupus;Ukraine;50,85;25,85;new_genomes/MW1174.CanFam31.realigned.bam
+141;WOLF_UA_2;Canis lupus;Ukraine;50,83;27,17;new_genomes/MW1175.CanFam31.realigned.bam
+142;WOLF_UA_3;Canis lupus;Ukraine;48,47;22,72;new_genomes/MW1176.CanFam31.realigned.bam
+144;WOLF_UA_5;Canis lupus;Ukraine;48,55;23,07;new_genomes/MW1178.CanFam31.realigned.bam
+145;WOLF_UA_6;Canis lupus;Ukraine;49,22;23,3;new_genomes/MW1179.CanFam31.realigned.bam
+146;WOLF_UA_7;Canis lupus;Ukraine;48,82;23,22;new_genomes/MW1180.CanFam31.realigned.bam
+147;WOLF_UA_8;Canis lupus;Ukraine;49,17;23,15;new_genomes/MW1181.CanFam31.realigned.bam
+148;WOLF_UA_9;Canis lupus;Ukraine;49,92;23,35;new_genomes/MW1182.CanFam31.realigned.bam
+149;WOLF_UA_10;Canis lupus;Ukraine;51,75;33,25;new_genomes/MW1183.CanFam31.realigned.bam
+150;WOLF_UA_11;Canis lupus;Ukraine;48,13;39,8;new_genomes/MW1184.CanFam31.realigned.bam
+155;WOLF_IT_5;Canis lupus;Italy;42,01882;13,10791;new_genomes/MW302.CanFam31.realigned.bam
+157;WOLF_IT_7;Canis lupus;Italy;41,88667425;13,17015899;new_genomes/MW304.CanFam31.realigned.bam
+158;WOLF_IT_8;Canis lupus;Italy;41,98833;13,06826;new_genomes/MW305.CanFam31.realigned.bam
+159;WOLF_IT_9;Canis lupus;Italy;41,98048;13,03602;new_genomes/MW306.CanFam31.realigned.bam
+160;WOLF_IT_10;Canis lupus;Italy;41,92465;13,09366;new_genomes/MW307.CanFam31.realigned.bam
+163;WOLF_IT_13;Canis lupus;Italy;41,8088;13,79008;new_genomes/MW310.CanFam31.realigned.bam
+164;WOLF_AT_1;Canis lupus;Austria;48,65342;15,33925;new_genomes/MW515.CanFam31.realigned.bam
