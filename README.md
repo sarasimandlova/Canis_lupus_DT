@@ -13,7 +13,7 @@ The commands in this text file generates these outputs: _.txt, .arg, .mafs.gz_, 
 This Python script is used to merge Beagle files, which were one of the outputs from GL calculations using ANGSD software. 
 
 ## Datasets_info
-This directory contains tables of information about the individual formulas used in the work.
+This directory contains tables of information about the individual samples used in the work.
 ### _DT_dataset_info_table.xlsx_
 This _.xlsx_ file contains complete information about the samples, it has three sheets that correspond to the _.csv_ files that follow in this directory.
 ### _filtered_dataset_info.csv_
@@ -23,6 +23,23 @@ This _.csv_ file contains information about the full dataset (165 samples).
 ### _imput_mvc.csv_
 This _.csv_ file contains information about the input file to the minimum vertex cover algorithm. 
 
+## PCAngsd
+This directory contains results, used scripts and commands from the anylitic part where cluster analysis via PCAngsd was performed.
+### _Filtered_dataset_results_
+### _Full_dataset_results_
+### _PCAngsd_run_command.txt_
+### _out_covmat.cov_
+### _pca.py_
+### _pca_3.py_
+### _pca_out.cov_
+
+## NGSadmix
+This directory contains results, used scripts and commands from the anylitic part where cluster analysis via NGSadmix was performed.
+### _Filtered_dataset_results_
+### _Full_dataset_results_
+### _run_commands.txt_
+### _visualization_NGSadmix_skript.R_
+
 ## Relatedness
 This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
 ### _NgsRelate_output_matrix.cov_
@@ -31,3 +48,5 @@ This file contains the matrix that is the output of the NgsRelate tool.
 This text file contains the run command to calculate relatedness using the NgsRelate tool.
 ### _input_NgsRelate_commands.txt_
 This command was used to create an input file for the relatedness analysis using the NgsRelate tool.
+### _mvc_script.py_
+This python script is used for minimum vertex cover approximation and it was the final step in the analytical part of determination of relatedness.
