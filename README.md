@@ -32,7 +32,9 @@ for K3, K4, K5, K6, K8 in _.pdf_ format.
 This directory contains visualizations of the NGSadmix analysis results for full dataset,
 for K3, K4, K5, K6, K8 in _.pdf_ format.
 ### _run_commands.txt_
+This text file contains a generator of individual commands for performing calculations for different K, with a minor modification applicable to both datasets.
 ### _visualization_NGSadmix_skript.R_
+This code in R performs visualization of admixture analysis results for genomic data of wolves, dogs and their hybrids. 
 
 ## PCAngsd
 This directory contains results, used scripts and commands from the anylitic part where cluster analysis via PCAngsd was performed.
@@ -43,11 +45,17 @@ the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1vsPC3 view in _.png_ an
 This directory contains visualizations of the PCA analysis results for full dataset,
 the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1vsPC3 view in _.png_ and _.pdf_ format.
 ### _PCAngsd_run_command.txt_
+This text file contains the run command to create the covariance matrix needed for PCA analysis.
 ### _out_covmat.cov_
+This is a _.cov_ file that is the output of PCAngsd. In this case it is the covariance matrix for the filtered dataset.
 ### _pca.py_
+This python code performs principal component analysis (PCA) on the covariance matrix and visualizes the results in a two-dimensional plot, 
+showing the first two principal components - PC1vsPC2.
 ### _pca_3.py_
+This python code performs principal component analysis (PCA) on the covariance matrix and visualizes the results in a two-dimensional plot, 
+showing the first two principal components - PC1vsPC3.
 ### _pca_out.cov_
-
+This is a _.cov_ file that is the output of PCAngsd. In this case it is the covariance matrix for the full dataset.
 ## Relatedness
 This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
 ### _NgsRelate_output_matrix.cov_
