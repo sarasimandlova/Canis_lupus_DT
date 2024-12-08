@@ -41,10 +41,10 @@ def minimize_edges_keep_nodes(csv_filepath):
         return None, None
 
 
-csv_file = "wolf_relationships.csv" #Vložte název svého CSV souboru
+csv_file = "wolf_relationships.csv"
 remaining_nodes, new_graph = minimize_edges_keep_nodes(csv_file)
 
 
 if remaining_nodes is not None:
-    print("Zachované uzly (vlci):", remaining_nodes)
-    print("\nUpravený graf (hrany):", new_graph.edges())
+    print("Conserved nodes (wolves):", remaining_nodes)
+    print("Modified graph (edges):", new_graph.edges())
