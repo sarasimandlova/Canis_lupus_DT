@@ -1,5 +1,5 @@
 """
-  An algorithm that minimizes the number of edges in a kinship graph using the Minimum Vertex Cover approximation.
+  An algorithm that minimizes the number of edges in a relatedness graph using the minimum vertex cover approximation.
     Args: csv_filepath: Path to CSV file with pairs of related wolves.
     Returns: tuple: (set of kept nodes (wolves), adjusted graph). Returns (None, None) in case of error.
 """
