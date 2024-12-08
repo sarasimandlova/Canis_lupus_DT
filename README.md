@@ -25,4 +25,9 @@ This _.csv_ file contains information about the input file to the minimum vertex
 
 ## Relatedness
 This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
-### NgsRelate_output_matrix.cov
+### _NgsRelate_output_matrix.cov_
+This file contains the matrix that is the output of the NgsRelate tool.
+### _NgsRelate_run_command.txt_
+This text file contains the run command to calculate relatedness using the NgsRelate tool.
+### _input_NgsRelate_commands.txt_
+This command was used to create an input file for the relatedness analysis using the NgsRelate tool.
