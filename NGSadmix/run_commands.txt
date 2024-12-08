@@ -1,0 +1,70 @@
+# Generator for individual commands to run calculations for different K, with a slight modification applicable to both datasets
+
+for kkk in 3 4 5 6 8 
+do
+    for rep in 0 1 2 3 4 5 6 7 8 9  
+    do
+        echo "/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep${rep}_k${kkk} -maxiter 10000 -P 48 -K ${kkk} -seed \$RANDOM > output-rep${rep}_k${kkk}.txt 2>&1 &" >> job_pool.txt
+    done
+
+    echo "" >> job_pool.txt
+
+done
+
+
+
+#barbora /mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep0_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep0_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep1_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep1_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep2_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep2_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep3_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep3_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep4_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep4_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep5_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep5_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep6_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep6_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep7_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep7_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep8_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep8_k3.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep9_k3 -maxiter 10000 -P 48 -K 3 -seed $RANDOM > output-rep9_k3.txt 2>&1 &
+
+# barbora /mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep0_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep0_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep1_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep1_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep2_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep2_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep3_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep3_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep4_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep4_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep5_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep5_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep6_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep6_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep7_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep7_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep8_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep8_k4.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep9_k4 -maxiter 10000 -P 48 -K 4 -seed $RANDOM > output-rep9_k4.txt 2>&1 &
+
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep0_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep0_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep1_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep1_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep2_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep2_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep3_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep3_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep4_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep4_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep5_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep5_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep6_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep6_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep7_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep7_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep8_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep8_k5.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep9_k5 -maxiter 10000 -P 48 -K 5 -seed $RANDOM > output-rep9_k5.txt 2>&1 &
+
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep0_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep0_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep1_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep1_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep2_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep2_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep3_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep3_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep4_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep4_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep5_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep5_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep6_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep6_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep7_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep7_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep8_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep8_k6.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep9_k6 -maxiter 10000 -P 48 -K 6 -seed $RANDOM > output-rep9_k6.txt 2>&1 &
+
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep0_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep0_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep1_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep1_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep2_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep2_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep3_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep3_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep4_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep4_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep5_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep5_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep6_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep6_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep7_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep7_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep8_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep8_k8.txt 2>&1 &
+#/mnt/proj2/open-27-33/sarasimandlova/software/angsd/misc/NGSadmix -likes merged_beagle_files.beagle -outfiles merged_wolves_all_gl_ngs_rep9_k8 -maxiter 10000 -P 48 -K 8 -seed $RANDOM > output-rep9_k8.txt 2>&1 &
+
