@@ -1,6 +1,6 @@
 # Genomics of grey wolf in Central Europe, Diploma thesis 
 This GitHub repository was created to store scripts and results related to a thesis called "Genomics of the grey wolf in Central Europe"
-  The repository is divided into five directories, which contain documents for each part of the thesis: ANGSD_GL, Datasets_info, KING_results, NGSadmix_results, PCA_results.
+  The repository is divided into five directories, which contain documents for each part of the thesis: ANGSD_GL, Datasets_info, Relatedness, NGSadmix, PCAngsd.
 
 This repository contains files in the following formats: _.txt, .cov, .R, .py, .png, .pdf, .csv, .xlsx._ The scripts are written in R(_.R_) and Python (_.py_) programming languages. 
 The following README.md section describes the directories of this repository.  
@@ -22,3 +22,6 @@ This _.csv_ file contains information about the filtered dataset (110 samples).
 This _.csv_ file contains information about the full dataset (165 samples).
 ### _imput_mvc.csv_
 This _.csv_ file contains information about the input file to the minimum vertex cover algorithm. 
+
+## Relatedness
+This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
