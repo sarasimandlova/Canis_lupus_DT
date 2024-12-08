@@ -23,22 +23,30 @@ This _.csv_ file contains information about the full dataset (165 samples).
 ### _imput_mvc.csv_
 This _.csv_ file contains information about the input file to the minimum vertex cover algorithm. 
 
+## NGSadmix
+This directory contains results, used scripts and commands from the anylitic part where cluster analysis via NGSadmix was performed.
+### _Filtered_dataset_results_
+This directory contains visualizations of the NGSadmix analysis results for filtered dataset,
+for K3, K4, K5, K6, K8 in _.pdf_ format.
+### _Full_dataset_results_
+This directory contains visualizations of the NGSadmix analysis results for full dataset,
+for K3, K4, K5, K6, K8 in _.pdf_ format.
+### _run_commands.txt_
+### _visualization_NGSadmix_skript.R_
+
 ## PCAngsd
 This directory contains results, used scripts and commands from the anylitic part where cluster analysis via PCAngsd was performed.
-### _Filtered_dataset_results_
-### _Full_dataset_results_
+### Filtered_dataset_results
+This directory contains visualizations of the PCA analysis results for filtered dataset,
+the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1vsPC3 view in _.png_ and _.pdf_ format. 
+### Full_dataset_results
+This directory contains visualizations of the PCA analysis results for full dataset,
+the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1vsPC3 view in _.png_ and _.pdf_ format.
 ### _PCAngsd_run_command.txt_
 ### _out_covmat.cov_
 ### _pca.py_
 ### _pca_3.py_
 ### _pca_out.cov_
-
-## NGSadmix
-This directory contains results, used scripts and commands from the anylitic part where cluster analysis via NGSadmix was performed.
-### _Filtered_dataset_results_
-### _Full_dataset_results_
-### _run_commands.txt_
-### _visualization_NGSadmix_skript.R_
 
 ## Relatedness
 This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
