@@ -1,4 +1,6 @@
-
+""" 
+This script is used to merge Beagle files, which were one of the outputs from GL calculations using ANGSD software
+""" 
 import pandas as pd
 import gzip
 import glob
