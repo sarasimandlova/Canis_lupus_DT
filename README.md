@@ -59,8 +59,8 @@ This is a _.cov_ file that is the output of PCAngsd. In this case it is the cova
 
 ## <ins>Relatedness</ins>
 This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
-### _NgsRelate_output_matrix.cov_
-This file contains the matrix that is the output of the NgsRelate tool.
+### _NgsRelate_output.csv_
+This is a .csv file containing the results from NgsRelate tool.
 ### _NgsRelate_run_command.txt_
 This text file contains the run command to calculate relatedness using the NgsRelate tool.
 ### _input_NgsRelate_commands.txt_
