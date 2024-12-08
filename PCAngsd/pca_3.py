@@ -1,8 +1,7 @@
 """ 
-This code performs principal component analysis (PCA) on the covariance matrix of the genomic data and visualizes the results. 
-Specifically, it reads the covariance matrix, applies PCA, and then produces a dot plot showing the first and third principal components 
-(with slight modification of the code for other combinations of components) for different groups of genomes with color resolution. 
-The graph shows the scatter of the data in these two dimensions and allows for visual comparison of genetic variability between different groups.
+This code performs principal component analysis (PCA) on the covariance matrix of the genomic data and visualizes the results in a two-dimensional plot. 
+It shows the first two principal components (PC1 vs PC3) that explain most of the variability in the data.
+This approach is useful for basic visualization of genetic variability between different groups and can reveal major trends in the data.
 """ 
 
 import pandas as pd
