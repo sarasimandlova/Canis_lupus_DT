@@ -2,7 +2,7 @@
 This GitHub repository was created to store scripts and results related to a thesis called "Genomics of the grey wolf in Central Europe"
   The repository is divided into five directories, which contain documents for each part of the thesis: ANGSD_GL, Daasets_info, KING_results, NGSadmix_results, PCA_results.
 
-This repository contains files in the following formats: _.txt, .cov, .R, .py, .png, .pdf, .csv, .xlsx._ The scripts are written in R (.R) and Python (.py) programming languages. 
+This repository contains files in the following formats: _.txt, .cov, .R, .py, .png, .pdf, .csv, .xlsx._ The scripts are written in R _(.R)_ and Python _(.py)_ programming languages. 
 The following READ.me section describes the directories of this repository.  
 
 ## ANGSD_GL
