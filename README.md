@@ -1,18 +1,18 @@
 # Genomics of grey wolf in Central Europe, Diploma thesis 
 This GitHub repository was created to store scripts, commands and results related to a thesis called "Genomics of the grey wolf in Central Europe".
-  The repository is divided into five directories, which contain all important files for each part of the thesis: <ins>ANGSD_GL</ins>, <ins>Datasets_info</ins>, <ins>NGSadmix</ins>, <ins>PCAngsd</ins> and <ins>Relatedness</ins>.
+  The repository is divided into five directories, which contain all important files for each part of the thesis: **ANGSD_GL**, **Datasets_info**, **NGSadmix**, **PCAngsd** and **Relatedness**.
 
 This repository contains files in the following formats: _.txt, .cov, .R, .py, .png, .pdf, .csv, .xlsx._ The scripts are written in R(_.R_) and Python (_.py_) programming languages. 
 The following README.md section describes the directories of this repository.  
 
-## <ins>ANGSD_GL</ins>
+## **ANGSD_GL**
 This directory contains commands for calculating genotype likelihoods (GL) and a python script for merging the output of the GL calculation.
 ### _GL_commands.txt_
 The commands in this text file generates these outputs: _.txt, .arg, .mafs.gz_, and _.beagle.gz_, the computation is parallelized across chromosomes (38). 
 ### _merge.py_
 This Python script is used to merge Beagle files, which were one of the outputs from GL calculations using ANGSD software. 
 
-## <ins>Datasets_info</ins>
+## **Datasets_info**
 This directory contains tables of information about the individual samples used in the work.
 ### _DT_dataset_info_table.xlsx_
 This _.xlsx_ file contains complete information about the samples, it has three sheets that correspond to the _.csv_ files that follow in this directory.
@@ -23,7 +23,7 @@ This _.csv_ file contains information about the full dataset (165 samples).
 ### _imput_mvc.csv_
 This _.csv_ file contains information about the input file to the minimum vertex cover algorithm. 
 
-## <ins>NGSadmix</ins>
+## **NGSadmix**
 This directory contains results, used scripts and commands from the anylitic part where cluster analysis via NGSadmix was performed.
 ### _Filtered_dataset_results_
 This directory contains visualizations of the NGSadmix analysis results for filtered dataset,
@@ -36,7 +36,7 @@ This text file contains a generator of individual commands for performing calcul
 ### _visualization_NGSadmix_skript.R_
 This code in R performs visualization of admixture analysis results for genomic data of wolves, dogs and their hybrids. 
 
-## <ins>PCAngsd</ins>
+## **PCAngsd**
 This directory contains results, used scripts and commands from the anylitic part where cluster analysis via PCAngsd was performed.
 ### Filtered_dataset_results
 This directory contains visualizations of the PCA analysis results for filtered dataset,
@@ -57,7 +57,7 @@ showing the first two principal components - PC1vsPC3.
 ### _pca_out.cov_
 This is a _.cov_ file that is the output of PCAngsd. In this case it is the covariance matrix for the full dataset.
 
-## <ins>Relatedness</ins>
+## **Relatedness**
 This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
 ### _NgsRelate_output.csv_
 This is a .csv file containing the results from NgsRelate tool.
