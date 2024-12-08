@@ -1,3 +1,4 @@
+# These commands generates genotype likelihoods, it is parallelized across chromosomes 
 # for CHR in {1..38}
 # do
 #    echo "/mnt/proj2/open-27-33/software/angsd/angsd  -GL 2 -out gl.hap.chr$CHR -ref ./ref/canFam31.fa -nThreads 3 -doGlf 2 -doMajorMinor 1 -SNP_pval 1e-6 -doMaf 1 -minMapQ 30 -minQ 30  -remove_bads 1 -uniqueOnly 1 -bam bam.filelist -r chr$CHR -P 3 > text.out.chr$CHR.txt &"
