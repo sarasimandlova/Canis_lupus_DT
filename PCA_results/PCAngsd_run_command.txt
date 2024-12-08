@@ -1,3 +1,0 @@
-# Run command to create the covariance maztrix (out_covmat.cov) needed for PCA analysis
-
-/home/sarasimandlova/.local/bin/pcangsd --beagle merged_beagle_files.beagle.gz -o out_covmat -t 128
