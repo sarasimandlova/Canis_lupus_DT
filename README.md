@@ -25,3 +25,4 @@ This _.csv_ file contains information about the input file to the minimum vertex
 
 ## Relatedness
 This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
+### NgsRelate_output_matrix.cov
