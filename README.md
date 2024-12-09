@@ -1,5 +1,5 @@
-# Genomics of gray wolf in Central Europe, Diploma thesis 
-This GitHub repository was created to store scripts, commands and results related to a thesis called "Genomics of the grey wolf in Central Europe".
+# Population genomics of grey wolf in Central Europe, Diploma thesis 
+This GitHub repository was created to store scripts, commands and results related to a thesis called "Population genomics of the grey wolf in Central Europe".
   The repository is divided into five directories, which contain all important files for each part of the thesis: **ANGSD_GL**, **Datasets_info**, **NGSadmix**, **PCAngsd** and **Relatedness**.
 
 This repository contains files in the following formats: _.txt, .cov, .R, .py, .png, .pdf, .csv, .xlsx._ The scripts are written in R(_.R_) and Python (_.py_) programming languages. 
