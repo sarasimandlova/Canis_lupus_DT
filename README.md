@@ -37,7 +37,7 @@ This text file contains a generator of individual commands for performing calcul
 This code in R performs visualization of admixture analysis results for genomic data of wolves, dogs and their hybrids. 
 
 ## **PCAngsd**
-This directory contains results, used scripts and commands from the anylitic part where cluster analysis via PCAngsd was performed.
+This directory contains results, used scripts and commands from the analytic part where cluster analysis via PCAngsd was performed.
 ### Filtered_dataset_results
 This directory contains visualizations of the PCA analysis results for filtered dataset,
 the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1vsPC3 view in _.png_ and _.pdf_ format. 
@@ -58,7 +58,7 @@ showing the first two principal components - PC1vsPC3.
 This is a _.cov_ file that is the output of PCAngsd. In this case it is the covariance matrix for the full dataset.
 
 ## **Relatedness**
-This directory contains results, used scripts and commands from the anylitic part where wolf relatedness was tested.
+This directory contains results, used scripts and commands from the analytic part where wolf relatedness was tested.
 ### _NgsRelate_output.csv_
 This is a .csv file containing the results from NgsRelate tool.
 ### _NgsRelate_run_command.txt_
