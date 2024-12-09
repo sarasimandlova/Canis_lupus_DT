@@ -13,7 +13,7 @@ The commands in this text file generates these outputs: _.txt, .arg, .mafs.gz_, 
 This Python script is used to merge Beagle files, which were one of the outputs from GL calculations using ANGSD software. 
 
 ## **Datasets_info**
-This directory contains tables of information about the individual samples used in the work.
+This directory contains tables of information about the individual samples used in the work and the input to the minimum vertex cover algorithm.
 ### _DT_dataset_info_table.xlsx_
 This _.xlsx_ file contains complete information about the samples, it has three sheets that correspond to the _.csv_ files that follow in this directory.
 ### _filtered_dataset_info.csv_
