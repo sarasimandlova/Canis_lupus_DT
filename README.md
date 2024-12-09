@@ -24,7 +24,7 @@ This _.csv_ file contains information about the full dataset (165 samples).
 This _.csv_ file contains information about the input file to the minimum vertex cover algorithm. 
 
 ## **NGSadmix**
-This directory contains results, used scripts and commands from the anylitic part where cluster analysis via NGSadmix was performed.
+This directory contains results, used scripts and commands from the analytic part where cluster analysis via NGSadmix was performed.
 ### _Filtered_dataset_results_
 This directory contains visualizations of the NGSadmix analysis results for filtered dataset,
 for K3, K4, K5, K6, K8 in _.pdf_ format.
