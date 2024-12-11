@@ -40,10 +40,10 @@ This code in R performs visualization of admixture analysis results for genomic 
 This directory contains results, used scripts and commands from the analytic part where cluster analysis via PCAngsd was performed.
 ### Filtered_dataset_results
 This directory contains visualizations of the PCA analysis results for filtered dataset,
-the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1 vs. PC3 view in _.png_ and _.pdf_ format. 
+the PC1 vs. PC2 view in _.png_ and _.pdf_ format and the PC1 vs. PC3 view in _.png_ and _.pdf_ format. 
 ### Full_dataset_results
 This directory contains visualizations of the PCA analysis results for full dataset,
-the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1 vs. PC3 view in _.png_ and _.pdf_ format.
+the PC1 vs. PC2 view in _.png_ and _.pdf_ format and the PC1 vs. PC3 view in _.png_ and _.pdf_ format.
 ### _PCAngsd_run_command.txt_
 This text file contains the run command to create the covariance matrix needed for PCA analysis.
 ### _out_covmat.cov_
