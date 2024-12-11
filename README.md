@@ -3,7 +3,7 @@ This GitHub repository was created to store scripts, commands and results relate
   The repository is divided into five directories, which contain all important files for each part of the thesis: **ANGSD_GL**, **Datasets_info**, **NGSadmix**, **PCAngsd** and **Relatedness**.
 
 This repository contains files in the following formats: _.txt, .cov, .R, .py, .png, .pdf, .csv, .xlsx._ The scripts are written in R(_.R_) and Python (_.py_) programming languages. 
-The following README.md section describes the directories of this repository.  
+The following _README.md_ section describes the directories of this repository.  
 
 ## **ANGSD_GL**
 This directory contains commands for calculating genotype likelihoods (GL) and a python script for merging the output of the GL calculation.
