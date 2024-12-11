@@ -40,20 +40,20 @@ This code in R performs visualization of admixture analysis results for genomic 
 This directory contains results, used scripts and commands from the analytic part where cluster analysis via PCAngsd was performed.
 ### Filtered_dataset_results
 This directory contains visualizations of the PCA analysis results for filtered dataset,
-the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1vsPC3 view in _.png_ and _.pdf_ format. 
+the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1 vs. PC3 view in _.png_ and _.pdf_ format. 
 ### Full_dataset_results
 This directory contains visualizations of the PCA analysis results for full dataset,
-the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1vsPC3 view in _.png_ and _.pdf_ format.
+the PC1vsPC2 view in _.png_ and _.pdf_ format and the PC1 vs. PC3 view in _.png_ and _.pdf_ format.
 ### _PCAngsd_run_command.txt_
 This text file contains the run command to create the covariance matrix needed for PCA analysis.
 ### _out_covmat.cov_
 This is a _.cov_ file that is the output of PCAngsd. In this case it is the covariance matrix for the filtered dataset.
 ### _pca.py_
 This python code performs principal component analysis (PCA) on the covariance matrix and visualizes the results in a two-dimensional plot, 
-showing the first two principal components - PC1vsPC2.
+showing the first two principal components - PC1 vs. PC2.
 ### _pca_3.py_
 This python code performs principal component analysis (PCA) on the covariance matrix and visualizes the results in a two-dimensional plot, 
-showing the first two principal components - PC1vsPC3.
+showing the first two principal components - PC1 vs. PC3.
 ### _pca_out.cov_
 This is a _.cov_ file that is the output of PCAngsd. In this case it is the covariance matrix for the full dataset.
 
